@@ -2,7 +2,7 @@
 title: 欢迎来到 Valash
 comments: true
 ---
-你好，旅人！欢迎踏入 Valash - 这是一间只属于游戏的记忆馆
+你好，旅人！欢迎踏入 Valash -- 这是一间只属于游戏的记忆馆
 <!-- more -->
 ## Quick Start
 

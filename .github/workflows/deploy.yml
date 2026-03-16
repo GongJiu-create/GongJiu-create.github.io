@@ -5,6 +5,10 @@ on:
     branches:
       - main  # 如果你的默认分支是 master，改为 master
 
+# 添加权限声明
+permissions:
+  contents: write   # 允许写入仓库内容
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest

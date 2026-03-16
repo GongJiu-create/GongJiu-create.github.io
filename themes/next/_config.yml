@@ -751,7 +751,7 @@ utterances:
   # Available values: pathname | url | title | og:title
   issue_term: pathname
   # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
-  label: 评论
+  label: comment
   theme: photon-dark
 
 # Isso
@@ -932,3 +932,12 @@ canvas_nest:
   color: '255,255,0' # 线条颜色，RGB值
   #zIndex: -1 # 背景层级
   count: 99 # 线条数量
+
+# Injects
+injects:
+  comment:
+    - layout: _partials/comments/utterances.njk
+      locals:
+        class: utterances
+        button: Utterances
+      options: {}

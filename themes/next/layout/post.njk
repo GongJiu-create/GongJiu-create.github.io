@@ -9,6 +9,19 @@
 
   {{ partial('_macro/post.njk', {post: page}) }}
 
+  {# 添加编辑按钮（仅文章页显示） #}
+  {% if not is_index %}
+  <div class="post-edit">
+    <a href="https://github.com/GongJiu-create/GongJiu-create.github.io/edit/main/source/{{ page.source }}" target="_blank" rel="noopener">
+      <i class="fa fa-pencil"></i> 编辑本文
+    </a>
+  </div>
+  {% endif %}
+
+  {# 评论区域 #}
+  {% if not is_index %}
+    {{ partial('_partials/comments.njk', {post: page}) }}
+  {% endif %}
 {% endblock %}
 
 {% block sidebar %}

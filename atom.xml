@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>Gong_J</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://gongjiu-create.github.io/</id>
+  <link href="https://gongjiu-create.github.io/" rel="alternate"/>
+  <link href="https://gongjiu-create.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, Gong_J</rights>
+  <subtitle>在像素与代码之间，留住你的冒险</subtitle>
+  <title>Valash</title>
+  <updated>2026-03-16T04:52:45.010Z</updated>
+  <entry>
+    <author>
+      <name>Gong_J</name>
+    </author>
+    <id>https://gongjiu-create.github.io/2026/03/16/hello-world/</id>
+    <link href="https://gongjiu-create.github.io/2026/03/16/hello-world/"/>
+    <published>2026-03-16T07:08:57.225Z</published>
+    <summary>
+      <![CDATA[<p>description: Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>]]>
+    </summary>
+    <title>Hello World</title>
+    <updated>2026-03-16T04:52:45.010Z</updated>
+  </entry>
+</feed>

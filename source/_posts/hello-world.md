@@ -4,6 +4,7 @@ comments: true
 ---
 <center>你好，旅人！欢迎踏入Valash—这是一间只属于游戏的记忆馆</center>
 <!-- more -->
+
 ## Quick Start
 
 ### Create a new post

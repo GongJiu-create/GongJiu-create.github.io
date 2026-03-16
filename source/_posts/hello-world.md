@@ -1,8 +1,8 @@
 ---
-title: 欢迎来到 Valash
+title: Welcome To Valash
 comments: true
 ---
-你好，旅人！欢迎踏入 Valash -- 这是一间只属于游戏的记忆馆
+<div class="custom-center">你好，旅人！欢迎踏入Valash—这是一间只属于游戏的记忆馆</div>
 <!-- more -->
 ## Quick Start
 

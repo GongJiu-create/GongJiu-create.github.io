@@ -2,8 +2,9 @@
 title: Welcome To Valash
 comments: true
 ---
-<div class="custom-center">你好，旅人！欢迎踏入Valash—这是一间只属于游戏的记忆馆</div>
+<center>你好，旅人！欢迎踏入Valash—这是一间只属于游戏的记忆馆</center>
 <!-- more -->
+
 ## Quick Start
 
 ### Create a new post

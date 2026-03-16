@@ -30,5 +30,8 @@
     "hexo-theme-landscape": "^1.0.0",
     "hexo-theme-next": "^8.27.0",
     "live2d-widget-model-nico": "^1.0.5"
+  },
+  "overrides": {
+  "strip-ansi": "6.0.1"
   }
 }

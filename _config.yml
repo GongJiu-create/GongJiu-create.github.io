@@ -103,6 +103,8 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
+  repository:
+    github: https://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@github.com/GongJiu-create/GongJiu-create.github.io.git,master
   repo: https://github.com/GongJiu-create/GongJiu-create.github.io.git
   branch: gh-pages
 

@@ -1418,7 +1418,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #73571a;
+  background: #589112;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2947,7 +2947,7 @@ body {
 }
 /* 文章标题字号第二大 */
 .post-title-link {
-  font-size: 100px !important; /* 比 site-title 小一点 */
+  font-size: 80px !important; /* 比 site-title 小一点 */
 }
 /* 设置 .main-inner 背景为半透明暗色 */
 .main-inner {

@@ -1418,7 +1418,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #36c474;
+  background: #a6281d;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -3002,6 +3002,6 @@ body {
 }
 /* 修改副标题文字大小和颜色 */
 .site-subtitle {
-  font-size: 48px !important; /* 将24px改为你想要的字号 */
+  font-size: 24px !important; /* 将24px改为你想要的字号 */
   color: #16f1ac !important; /* 将#ff6600改为你喜欢的颜色 */
 }

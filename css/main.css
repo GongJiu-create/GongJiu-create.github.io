@@ -1418,7 +1418,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #aab863;
+  background: #944a46;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2884,7 +2884,6 @@ header.header {
     left: 320px;
   }
 }
-@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Long+Cang&display=swap");
 body {
   background: url("/images/background.jpg");
   background-repeat: no-repeat;

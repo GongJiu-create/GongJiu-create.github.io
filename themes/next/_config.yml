@@ -110,6 +110,7 @@ menu:
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
+  write: https://github.com/GongJiu-create/GongJiu-create.github.io/new/main/source/_posts || fa fa-pencil
 
 # Enable / Disable menu icons / item badges.
 menu_settings:

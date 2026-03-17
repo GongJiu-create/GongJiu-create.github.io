@@ -225,8 +225,8 @@ body {
   background: var(--body-bg-color);
   box-sizing: border-box;
   color: var(--text-color);
-  font-family: Noto Serif Simplified Chinese, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 1.1em;
+  font-family: Long Cang, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-size: 1.4em;
   line-height: 2;
   min-height: 100%;
   position: relative;
@@ -238,7 +238,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Bitcount Prop Double Ink, Noto Serif Simplified Chinese, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Bitcount Prop Double Ink, Long Cang, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 30px 0 15px;
@@ -1244,7 +1244,7 @@ pre code {
 }
 .site-title {
   color: #2f5fb1;
-  font-family: Bitcount Prop Double Ink, Noto Serif Simplified Chinese, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Bitcount Prop Double Ink, Long Cang, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 1.5em;
   font-weight: normal;
   line-height: 1.5;
@@ -1418,7 +1418,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #a6281d;
+  background: #e7ff90;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2034,7 +2034,7 @@ pre code {
   width: 4px;
 }
 .post-body {
-  font-family: Noto Serif Simplified Chinese, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Long Cang, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2223,7 +2223,7 @@ pre code {
 }
 .posts-expand .post-meta-container {
   color: #999;
-  font-family: Noto Serif Simplified Chinese, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Long Cang, 'PingFang SC', 'Microsoft YaHei', sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
@@ -2884,6 +2884,7 @@ header.header {
     left: 320px;
   }
 }
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:wght@100..900&family=Long+Cang&display=swap");
 body {
   background: url("/images/background.jpg");
   background-repeat: no-repeat;
@@ -3000,8 +3001,10 @@ body {
   color: #333 !important; /* 悬停时颜色更深 */
   background-color: #f0f0f0; /* 可选：增加背景色 */
 }
-/* 修改副标题文字大小和颜色 */
+/* 修改副标题字体 */
 .site-subtitle {
-  font-size: 24px !important; /* 将24px改为你想要的字号 */
-  color: #16f1ac !important; /* 将#ff6600改为你喜欢的颜色 */
+  font-family: 'Long Cang', serif !important;
+/* 如果你之前有大小和颜色设置，可以保留或调整 */
+  font-size: 24px !important;
+  color: #16f1ac !important;
 }

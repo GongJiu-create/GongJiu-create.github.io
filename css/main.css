@@ -1418,7 +1418,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #e7ff90;
+  background: #aab863;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2944,7 +2944,7 @@ body {
 }
 /* 网站标题（Valash）字号最大 */
 .site-title {
-  font-size: 120px !important; /* 你可以自己调整数值，比如 48px */
+  font-size: 100px !important; /* 你可以自己调整数值，比如 48px */
 }
 /* 文章标题字号第二大 */
 .post-title-link {
@@ -3005,6 +3005,36 @@ body {
 .site-subtitle {
   font-family: 'Long Cang', serif !important;
 /* 如果你之前有大小和颜色设置，可以保留或调整 */
-  font-size: 24px !important;
-  color: #16f1ac !important;
+  font-size: 20px !important;
+  color: #05daff !important;
+  margin-top: -20px !important;
+}
+/* 手机端文章内容左右留白 */
+@media (max-width: 767px) {
+  html,
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    box-sizing: border-box !important;
+  }
+  .main,
+  .main-inner {
+    margin-top: 20px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+    float: none !important;
+  }
+  .post-block {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    box-sizing: border-box !important;
+  }
 }
